@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="30x30" href="../assets/icons/airplane.png">
+    <title>Travel Site | Contact</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <header>
+        <!-- main menu -->
+        <nav class="nav-menu">
+            <div class="nav-menu__logo">
+                <h1 class="nav-menu__title">
+                    <a class="nav-menu__link" href="../index.html">Travel Site</a>
+                </h1>
+            </div>
+            <div class="nav-menu__pages">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="../index.html">Home</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="hawaii.html">Hawaii</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="iceland.html">Iceland</a></li>
+                    <li class="nav-menu__item"><a class="nav-menu__link" href="greece.html">Greece</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- customer information -->
+        <section class=" information">
+            <form action="#" method="POST">
+                <h1 class="information__title">Contact Us</h1>
+                <section>
+                    <fieldset class="information__form">
+                        <ul>
+                            <li>
+                                <label for="name"></label>
+                                <input type="text" id="name" name="name" value="" placeholder="Name" required><br>
+                            </li>
+                            <li>
+                                <label for="email"></label>
+                                <input type="email" id="email" name="email" value="" placeholder="Email" required><br><br>
+                            </li>
+                            <li>
+                                <label for="destinations"></label>
+                                <select id="destinations" name="destinations">
+                                <option disabled hidden selected>Destination</option>
+                                <option value="hawaii">Hawaii</option>
+                                <option value="iceland">Iceland</option>
+                                <option value="greece">Greece</option>
+                            </select>
+                            </li>
+                            <li>
+                                <label for="message"></label>
+                                <textarea id="message" name="message" rows="3" cols="30" placeholder="Message"></textarea>
+                            </li>
+                            <li><input type="submit" value="Submit"></li>
+                        </ul>
+                    </fieldset>
+                </section>
+            </form>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="full-width full-width--rose">
+        <section class="footer wrap">
+            <div>
+                <h3 class="footer__title">Contact</h3>
+                <div class="footer__contact">
+                    <h4 class="footer__subtitle">Email</h4>
+                    <p class="footer__detail">info@travelsite.com</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer__title">Hours</h3>
+                <div class="footer__hours">
+                    <div>
+                        <h4 class="footer__subtitle">Monday - Friday</h4>
+                        <p class="footer__detail">9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div>
+                        <h4 class="footer__subtitle">Saturday</h4>
+                        <p class="footer__detail">10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div>
+                        <h4 class="footer__subtitle">Sunday</h4>
+                        <p class="footer__detail">Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer__title">Social</h3>
+                <div class="footer__social ">
+                    <a class="footer__link" href="https://twitter.com" target="_blank"><img src="../assets/icons/icon-instagram.png" alt="icon-instagram"></a>
+                    <a class="footer__link" href="https://facebook.com" target="_blank"><img src="../assets/icons/icon-facebook.png" alt="icon-facebook"></a>
+                    <a class="footer__link" href="https://instagram.com" target="_blank"><img src="../assets/icons/icon-twitter.png" alt="icon-twitter"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

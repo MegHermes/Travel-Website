@@ -1,0 +1,102 @@
+@import url('../css/global.css');
+.itinerary {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.itinerary--hawaii {
+    background-image: url('../assets/images/hawaii.jpg');
+}
+
+.itinerary--iceland {
+    background-image: url('../assets/images/iceland.jpg');
+}
+
+.itinerary--greece {
+    background-image: url('../assets/images/greece.jpg');
+}
+
+.itinerary__title {
+    margin: 3rem 0;
+    color: var(--white);
+}
+
+.itinerary__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    background-color: (--white);
+    margin: 1rem 0 5rem 0;
+}
+
+.itinerary__options {
+    background-color: var(--white);
+    width: 25%;
+    height: 25rem;
+    border-radius: 0.3125rem;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itinerary__subtitle {
+    border-bottom: .2rem solid var(--black);
+    width: 90%;
+    padding-top: .5rem;
+}
+
+.itinerary__item {
+    margin: 1rem;
+    padding: 1rem 5rem;
+    background-color: var(--rose);
+}
+
+
+/* responsive design */
+
+
+/* mobile */
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .itinerary__title {
+        font-size: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+    .itinerary__cards {
+        flex-direction: column;
+    }
+    .itinerary__options {
+        width: 100%;
+        margin: 1rem;
+    }
+    .itinerary__item {
+        padding: 1rem 3rem;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 601px) and (max-width: 1180px) {
+    .itinerary__options {
+        width: 100%;
+        margin: 1rem;
+    }
+    .itinerary__item {
+        padding: 1rem 3rem;
+    }
+}
