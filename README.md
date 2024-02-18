@@ -1,14 +1,5 @@
 # 🛫 Travel Site
 
-## Table of contents
-
-- [The Project](#the-project)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installing](#installing)
-- [Live](#live)
-
-
 ## Overview
 
 ### The Project
@@ -28,9 +19,9 @@
 - BEM
 - FlexBox
 
-### Installing
+### Installation
 
-- Download the Repository
+- Download repo
 - Open `index.html` on a web browser
 
 
