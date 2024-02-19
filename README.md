@@ -27,6 +27,6 @@
 
 ### Live
 
-- [Travel Site](https://meghermes.github.io/travel-website/)
+- [Travel Site](https://meghermes.github.io/Travel-Website/)
 
 
