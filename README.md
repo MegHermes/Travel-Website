@@ -7,10 +7,8 @@
 
 ### Features
 - Multi-page website
-- Responsive design
-- Access recommendations by clicking on the corresponding image on the landing page
-- Access more information about each recommendation on a specific page
-- Fill up a contact form
+- Responsive design (accessible on any size device)
+- Fill out contact form
 
 ### Technologies
 
